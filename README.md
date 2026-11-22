@@ -121,23 +121,3 @@ Abra http://localhost:5173 no seu navegador. Para testar em dispositivos móveis
 ```bash
 npm run dev -- --host
 ```
-
----
-
-## 📦 Como Publicar (Vercel ou Netlify)
-
-1. Crie um repositório no GitHub e faça o push dos arquivos:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: versão final do fichario dev"
-   git branch -M main
-   git remote add origin https://github.com/wxpett/fichario-dev.git
-   git push -u origin main
-   ```
-2. Acesse a [Vercel](https://vercel.com/)
-3. Conecte sua conta do GitHub e importe o repositório `fichario-dev`.
-4. As configurações de build padrão do Vite serão detectadas automaticamente:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-5. Clique em **Deploy** e copie a URL pública gerada para a entrega!
