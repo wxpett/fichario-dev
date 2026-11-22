@@ -14,18 +14,9 @@
 
 ## 🔗 Links Importantes
 
-- **Site Publicado:** [https://fichario-dev.vercel.app/#/por-que-importa](https://fichario-dev.vercel.app/#/por-que-importa)
-- **Repositório GitHub:** [https://github.com/wxpett/fichario-dev](https://github.com/wxpett/fichario-dev)
-- **Captura de Tela no Celular:** [`docs/screenshots/celular-dupla.jpg`](./docs/screenshots/celular-dupla.jpg) (veja a demonstração abaixo)
-
----
-
-## 📱 Captura de Tela no Aparelho Celular da Dupla
-
-<div align="center">
-  <img src="./docs/screenshots/celular-dupla.jpg" alt="Captura de tela do Fichário Dev rodando no celular da dupla" width="280" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.18); margin: 1rem 0;" />
-  <p><em>Site publicado na Vercel rodando em dispositivo móvel real (viewport 360px, breakpoint Mobile ativo).</em></p>
-</div>
+- **Site Publicado:** https://fichario-dev.vercel.app/#/por-que-importa
+- **Repositório GitHub:** https://github.com/wxpett/fichario-dev
+- **Captura de Tela no Celular:** Ver pasta [`/docs/screenshots/`](./docs/screenshots/) ou anexada na entrega da avaliação.
 
 ---
 
