@@ -7,16 +7,25 @@
 
 ## 👥 Integrantes da Dupla
 
-- **Integrante 1:** [Nome Completo do Aluno 1]
-- **Integrante 2:** [Nome Completo do Aluno 2]
+- **Integrante 1:** Kauan Alejandro da Rosa
+- **Integrante 2:** Renan Ramos Capeleti
 
 ---
 
 ## 🔗 Links Importantes
 
-- **Site Publicado:** [https://seu-fichario-dev.vercel.app](https://seu-fichario-dev.vercel.app) *(substitua pelo link gerado na Vercel / Netlify)*
-- **Repositório GitHub:** [https://github.com/seu-usuario/fichario-dev](https://github.com/seu-usuario/fichario-dev)
-- **Captura de Tela no Celular:** Ver pasta [`/docs/screenshots/`](./docs/screenshots/) ou anexada na entrega da avaliação.
+- **Site Publicado:** [https://fichario-dev.vercel.app/#/por-que-importa](https://fichario-dev.vercel.app/#/por-que-importa)
+- **Repositório GitHub:** [https://github.com/wxpett/fichario-dev](https://github.com/wxpett/fichario-dev)
+- **Captura de Tela no Celular:** [`docs/screenshots/celular-dupla.jpg`](./docs/screenshots/celular-dupla.jpg) (veja a demonstração abaixo)
+
+---
+
+## 📱 Captura de Tela no Aparelho Celular da Dupla
+
+<div align="center">
+  <img src="./docs/screenshots/celular-dupla.jpg" alt="Captura de tela do Fichário Dev rodando no celular da dupla" width="280" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.18); margin: 1rem 0;" />
+  <p><em>Site publicado na Vercel rodando em dispositivo móvel real (viewport 360px, breakpoint Mobile ativo).</em></p>
+</div>
 
 ---
 
@@ -28,7 +37,7 @@ Para fugir da estética genérica e padronizada de interfaces geradas por IA, o 
 - Post-its coloridos ligeiramente inclinados para perguntas e reflexões.
 - Efeito de marca-texto amarelo nos tópicos-chave.
 - Carimbos circulares verdes de *"Lida!"* com estado persistente no LocalStorage via **Pinia**.
-- No celular, as abas de navegação colapsam em um botão hamburguer acessível.
+- No celular, as abas de navegação colapsam em um botão hambúrguer acessível.
 
 ---
 
@@ -104,7 +113,7 @@ O projeto cumpre com folga a exigência mínima de 3 laboratórios, oferecendo *
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/seu-usuario/fichario-dev.git
+git clone https://github.com/wxpett/fichario-dev.git
 
 # 2. Entrar na pasta do projeto
 cd fichario-dev
@@ -116,7 +125,7 @@ npm install
 npm run dev
 ```
 
-Abra [http://localhost:5173](http://localhost:5173) no seu navegador. Para testar em dispositivos móveis na mesma rede Wi-Fi, execute:
+Abra http://localhost:5173 no seu navegador. Para testar em dispositivos móveis na mesma rede Wi-Fi, execute:
 
 ```bash
 npm run dev -- --host
@@ -132,10 +141,10 @@ npm run dev -- --host
    git add .
    git commit -m "feat: versão final do fichario dev"
    git branch -M main
-   git remote add origin https://github.com/seu-usuario/fichario-dev.git
+   git remote add origin https://github.com/wxpett/fichario-dev.git
    git push -u origin main
    ```
-2. Acesse a [Vercel](https://vercel.com/) ou [Netlify](https://www.netlify.com/).
+2. Acesse a [Vercel](https://vercel.com/)
 3. Conecte sua conta do GitHub e importe o repositório `fichario-dev`.
 4. As configurações de build padrão do Vite serão detectadas automaticamente:
    - **Build Command:** `npm run build`
